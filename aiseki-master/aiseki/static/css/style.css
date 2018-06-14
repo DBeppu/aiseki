@@ -1,0 +1,294 @@
+body {
+	font-size: 16px;
+	letter-spacing: 0.1rem;
+	background-color: #E6E6E6;
+}
+.red {
+	color: #F15A3D;
+}
+.blue {
+	color: #3064A9;
+}
+a:hover {
+	opacity: 0.6;
+}
+hr {
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+	border-top: 1px solid Silver;
+}
+header {
+	width: 100%;
+	height: 68px;
+	background-color: #F15A3D;
+	padding: 20px 20px;
+}
+header .logo {
+	width: 120px;
+}
+header .leadcopy {
+	width: 180px;
+}
+#main.top .wrapper {
+	padding: 0 40px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+#main.top h1 {
+	width: 220px;
+	margin: 0 auto;
+	padding-top: 3rem;
+}
+#main.top .wrapper .head p {
+	font-size: 1.2rem;
+	padding-top: 2rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+#main.top .wrapper .select {
+	position: relative;
+	font-size: 1.2rem;
+	background: #FFFFFF;
+	height: 4rem;
+	margin-bottom: 8px;
+	padding-top: 1.1rem;
+	color: #BBBBBB;
+}
+#main.top .wrapper .select img {
+	height: 1rem;
+	position: absolute;
+	right: 1.5rem;
+	top: 1.5rem;
+}
+#main.top a.btn-round {
+	font-size: 1.2rem;
+	color: #FFFFFF;
+	display: inline-block;
+	width: 100%;
+	height: 4rem;
+	border: 2px solid #F15A3D;
+	border-radius: 2rem;
+	padding: 1rem;
+	margin: 0.6rem 0;
+	background-color: #F15A3D;
+	text-align: center;
+}
+#main.top a.btn-round:hover {
+	text-decoration: none;
+	background: #FFFFFF;
+	color: #F15A3D;
+	opacity: 1;
+}
+footer {
+	font-size: 0.6rem;
+	text-align: center;
+}
+/*page-1=検索結果ページ*/
+
+#main.list .wrapper {
+	padding: 20px;
+}
+#main .wrapper p.bread-crumb {
+	font-size: 0.75rem;
+}
+#main.list .wrapper p.result {
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 1rem 0;
+}
+#main.list .wrapper section {
+	border-bottom: 1px #000000 solid;
+	padding-bottom: 2rem;
+	margin-bottom: 2rem;
+}
+#main.list .wrapper section p.name a {
+	font-size: 1.5rem;
+	color: #F15A3D;
+	text-decoration: underline;
+}
+#main.list .wrapper section p.address {
+	font-size: 0.75rem;
+}
+#main.list .wrapper section p.tel a {
+	color: #F15A3D;
+	text-decoration: underline;
+}
+#main.list .wrapper section .number .men, #main.list .wrapper section .number .women, #main.item .wrapper .number .men, #main.item .wrapper .number .women {
+	width: 50%;
+	padding: 0 2px;
+	margin: 0;
+}
+#main.list .wrapper section .number .men p, #main.list .wrapper section .number .women p, #main.item .wrapper .number .men p, #main.item .wrapper .number .women p {
+	font-family: 'Bree Serif', serif;
+	font-size: 2rem;
+	display: inline-block;
+	width: 100%;
+	height: 4rem;
+	border-radius: 2rem;
+	padding-top: 0.3rem;
+	padding-right: 12px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+#main.list .wrapper section .number p small, #main.item .wrapper .number p small {
+	font-size: 40%;
+}
+#main.list .wrapper section .number .men p, #main.item .wrapper .number .men p {
+	color: #3064A9;
+}
+#main.list .wrapper section .number .women p, #main.item .wrapper .number .women p {
+	color: #F15A3D;
+}
+#main.list .wrapper section .number .men p img, #main.list .wrapper section .number .women p img, #main.item .wrapper .number .men p img, #main.item .wrapper .number .women p img {
+	float: left;
+	margin-top: 14px;
+	margin-left: 24px;
+}
+/*page-2=お店詳細ページ*/
+
+#main.item .wrapper {
+	padding: 20px;
+}
+#main.item .wrapper p.name {
+	font-size: 1.5rem;
+	padding: 1rem 0;
+	text-align: center;
+}
+#main.item .wrapper dt {
+	font-size: 0.75rem;
+}
+#main.item .wrapper dl {
+	text-align: center;
+}
+#main.item .wrapper dl a {
+	color: #F15A3D;
+	text-decoration: underline;
+}
+#main.item .wrapper p.tel a {
+	color: #F15A3D;
+	text-decoration: underline;
+}
+#main.item p.googlemap a {
+	font-size: 0.75rem;
+	color: #FFFFFF;
+	display: inline-block;
+	width: 200px;
+	height: 2rem;
+	border: 1px solid #000000;
+	border-radius: 1.5rem;
+	padding-top: 0.4rem;
+	background-color: #000000;
+	text-align: center;
+	text-decoration: none;
+}
+#main.item p.googlemap a:hover {
+	color: #000000;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+	opacity: 1;
+}
+#main.item .comment p.head {
+	font-size: 1.2rem;
+	padding-top: 2rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+#main.item .comment .men, #main.item .comment .women {
+	margin-bottom: 1rem;
+}
+#main.item .comment .avatar {
+	font-size: 0.75rem;
+	width: 100px;
+	float: left;
+	text-align: center;
+	margin-top: 1rem;
+}
+#main.item .comment .avatar img {
+	width: 12px;
+}
+#main.item .comment .avatar p.name {
+	font-size: 0.75rem;
+	padding: 0;
+	margin-top: 4px;
+	margin-bottom: 0;
+}
+#main.item .comment .avatar p.date {
+	font-size: 0.5rem;
+	color: #8B8B8B;
+}
+#main.item .text {
+	font-size: 0.75rem;
+	width: 70%;
+	float: left;
+	background: #3064A9;
+	color: #FFFFFF;
+	padding: 20px;
+	padding-bottom: 4px;
+	border-radius: 12px;
+}
+#main.item .comment .women .avatar {
+	float: right;
+}
+#main.item .women .text {
+	float: right;
+	background: #F15A3D;
+}
+#main.item .write a {
+	font-size: 1.2rem;
+	color: #FFFFFF;
+	display: block;
+	width: 240px;
+	height: 4rem;
+	border: 2px solid #000000;
+	border-radius: 2rem;
+	padding: 1rem;
+	margin: 0 auto;
+	background-color: #000000;
+	text-align: center;
+}
+#main.item .write a:hover {
+	text-decoration: none;
+	background: #FFFFFF;
+	color: #000000;
+}
+#main.item .gender {
+	margin: 0 auto;
+	padding-bottom: 2rem;
+}
+#main.item .write .textbox {
+	font-size: 0.75rem;
+	width: 100%;
+	color: #000000;
+	padding: 20px;
+	border-radius: 12px;
+	border-color: #fff;
+	background-color: #FFFFFF;
+	margin-bottom: 1rem;
+}
+#main.item .write .gender .custom-control-label::before {
+	background-color: #FFFFFF;
+}
+
+/*PC用*/
+
+@media (min-width: 992px) {
+header {
+}
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+#main.top h1 {
+	width: 100%;
+	max-width: 27rem;
+	margin: 0 auto;
+}
+header .leadcopy {
+	width: 240px;
+}
+#main.item .wrapper p.name {
+	font-size: 2rem;
+	padding: 1rem 0;
+}
+}

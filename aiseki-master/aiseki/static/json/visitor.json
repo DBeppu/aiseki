@@ -1,0 +1,38 @@
+[
+    {
+        "aiseki_id": 1,
+        "men": 79,
+        "women": 71,
+        "type": "people"
+    },
+    {
+        "aiseki_id": 4,
+        "men": "33",
+        "women": "41",
+        "type": "people"
+    },
+    {
+        "aiseki_id": 5,
+        "men": "30",
+        "women": "30",
+        "type": "%"
+    },
+    {
+        "aiseki_id": 6,
+        "men": "10",
+        "women": "10",
+        "type": "%"
+    },
+    {
+        "aiseki_id": 9,
+        "men": "",
+        "women": "",
+        "type": "%"
+    },
+    {
+        "aiseki_id": 8,
+        "men": "0",
+        "women": "6",
+        "type": "people"
+    }
+]
